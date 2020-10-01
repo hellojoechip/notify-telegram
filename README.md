@@ -24,7 +24,7 @@ I created 2 ways to push a notification to telegram.
 1. Login to [webhooks settings](https://ifttt.com/maker_webhooks/settings)
 2. Copy and paste URL into browser.
 3. Fill in the blanks. (event: devops3 -- I used my telegram channel name)
-4. Copy the curl, replace the last line of test.yml file with this.
+4. Copy the curl, replace the last line of test1.yml file with this. 
 
 ### The ifttt setup <br/>
 This requires 2 applets to be created. <br/>
