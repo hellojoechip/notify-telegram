@@ -4,11 +4,16 @@ I created 2 ways to push a notification to telegram.
 1. When a new commit is made.
 2. When a new pull request is made.
 
+<br/>
+
 ## Setting up telegram
 1. Search for 'BotFather' on [telegram](https://telegram.org/).
 2. Create and name your bot.
 3. Create a new telegram channel.
 4. Add the bot created to your new channel.
+
+## Setting up ifttt
+1. Create an account and login to [ifttt](https://ifttt.com)
 
 <br/>
 <br/>
@@ -21,12 +26,13 @@ I created 2 ways to push a notification to telegram.
 3. Fill in the blanks. (event: devops3 -- I used my telegram channel name)
 4. Copy the curl, replace the last line of test.yml file with this.
 
-### The ifttt setup
-This requires 2 applets to be created.
-Create an account and login to [ifttt](https://ifttt.com)
+### The ifttt setup <br/>
+This requires 2 applets to be created. <br/>
+
+<br/>
 
 _The first applet_ <br/>
-This is to create a web request when your code runs.
+This is to create a web request when a new commit is made.
 
 1. Click on 'create' to create a new applet.
 2. Click on 'if this' and search for github. 
@@ -42,6 +48,8 @@ This is to create a web request when your code runs.
 12. Enable web page preview. (no idea what this does)
 13. Click on 'create action'.
 
+<br/>
+
 _The second applet_<br/>
 This is to send a notification to telegram when a web request is created.
 
@@ -55,6 +63,8 @@ This is to send a notification to telegram when a web request is created.
 8. Change target chat to your newly created telegram channel.
 9. Enable web page preview. (still no idea what this does)
 11. Click on 'create action'.
+
+<br/>
 
 ### Testing it
 If the setup is done correctly, your newly created telegram channel will receive a notification each time a new commit is made.
@@ -81,5 +91,5 @@ If the setup is done correctly, your newly created telegram channel will receive
 14. Click on 'create action'.
 
 ### Testing
-To test if the setup works, create a trigger based on the one you have chosen under step 5.
+To test if the setup works, create a trigger based on the one you have chosen under step 5. <br/>
 If the setup is done correctly, your newly created telegram channel will receive a notification.
