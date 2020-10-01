@@ -47,16 +47,21 @@ This is to send a notification to telegram when a web request is created.
 
 1. Click on 'create' to create a new applet.
 2. Click on 'if this' and search for webhook. 
-3. Choose your trigger.
-4. Key in your event name. (For event name, refer to step 3 under webhooks setup.)
-5. Click on 'create trigger'.
-6. CLick on 'then that' and search for telegram.
-7. Choose an action.
-8. Change target chat to your newly created telegram channel.
-9. Enable web page preview. (still no idea what this does)
+3. Follow the authorization process and connect telegram and ifttt.
+4. Choose your trigger.
+5. Key in your event name. (For event name, refer to step 3 under webhooks setup.)
+6. Click on 'create trigger'.
+7. CLick on 'then that' and search for telegram.
+8. Choose an action.
+9. Change target chat to your newly created telegram channel.
+10. Enable web page preview. (still no idea what this does)
 11. Click on 'create action'.
 
 <br/>
 
 ### Testing it
 If the setup is done correctly, your newly created telegram channel will receive a notification each time a new commit is made.
+
+<br/>
+<br/>
+Please feel free to make pull requests if any of the steps are incorrect or missing. These steps are based on my memory.
