@@ -35,4 +35,4 @@ jobs:
         df -h
         which wget
         which curl
-        curl -X POST -H "Content-Type: application/json" -d '{"value1":"stuff happened","value2":"","value3":""}' https://api.telegram.org/bot1237541292:AAG1pfpimSZ_F9vALup8Myksqn_W90IIBRc/sendMessage
+        curl -X POST -H "Content-Type: application/json" -d '{"value1":"stuff happened","value2":"","value3":""}' https://maker.ifttt.com/use/k9VvAtBb7S7ZI2UTxTf3lk2H7LYllSoJuryAqzwLVWL
