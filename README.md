@@ -1,4 +1,4 @@
-### Notify-telegram
+# Notify-telegram
 
 I created 2 ways to push a notification to telegram.
 1. When a new commit is made.
@@ -13,13 +13,13 @@ I created 2 ways to push a notification to telegram.
 
 ## 1. Pushing a notification when a new commit is made
 
-# The webhooks setup
+### The webhooks setup
 1. Login to [webhooks settings](https://ifttt.com/maker_webhooks/settings)
 2. Copy and paste URL into browser.
 3. Fill in the blanks. (event: devops3 -- I used my telegram channel name)
 4. Copy the curl, replace the last line of test.yml file with this.
 
-# The ifttt setup
+### The ifttt setup
 This requires 2 applets to be created.
 Create an account and login to [ifttt](https://ifttt.com)
 
@@ -54,14 +54,14 @@ This is to send a notification to telegram when a web request is created.
 9. Enable web page preview. (still no idea what this does)
 11. Click on 'create action'.
 
-# Testing it
-?? Let me figure it out
+### Testing it
+If the setup is done correctly, your newly created telegram channel will receive a notification each time a new commit is made.
 
 
 
 ## 2. Pushing a notification when a new pull request is made
 
-# The ifttt setup
+### The ifttt setup
 1. Create an account and login to [ifttt](https://ifttt.com)
 2. Click on create to create a new applet.
 3. Click on 'if this' and search for github. 
@@ -77,6 +77,6 @@ This is to send a notification to telegram when a web request is created.
 13. Enable web page preview. (no idea what this does)
 14. Click on 'create action'.
 
-# Testing
+### Testing
 To test if the setup works, create a trigger based on the one you have chosen under step 5.
 If the setup is done correctly, your newly created telegram channel will receive a notification.
