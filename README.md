@@ -15,6 +15,7 @@ Source: https://core.telegram.org/file/811140763/1/PihKNbjT8UE/03b57814e13713da3
 <br/>
 
 ## Setting up telegram
+This is for creating a bot and channel.
 1. Search for 'BotFather' on [telegram](https://telegram.org/).
 2. Create and name your bot.
 3. Create a new telegram channel.
@@ -24,6 +25,7 @@ Source: https://core.telegram.org/file/811140763/1/PihKNbjT8UE/03b57814e13713da3
 1. Create an account and login to [ifttt](https://ifttt.com)
 
 ## The webhooks setup
+This is for sending a automated message to a publicly accessible URL when a commit is made.
 1. Login to [webhooks settings](https://ifttt.com/maker_webhooks/settings)
 2. Copy and paste URL into browser.
 3. Fill in the blanks. (event: devops3 -- I used my telegram channel name)
