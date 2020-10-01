@@ -2,6 +2,10 @@
 Pushing a notification to telegram when a new commit is made.
 
 <br/>
+Click [here](https://t.me/Devops3_1) to subscribe to my telegram channel for updates. <br/>
+To push notifications to the channel, use
+
+<br/>
 
 ## Setting up telegram
 1. Search for 'BotFather' on [telegram](https://telegram.org/).
