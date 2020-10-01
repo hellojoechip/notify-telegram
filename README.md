@@ -33,10 +33,11 @@ This is for sending a automated message to a publicly accessible URL when a comm
 
 ## The ifttt setup <br/>
 This requires 2 applets to be created. <br/>
-Each applet has a trigger and response. <br/>
+Each applet has a trigger and response.
+<br/>
+<br/>
 ![Trigger   response process](https://user-images.githubusercontent.com/71744836/94854890-36576200-0460-11eb-94d8-c8ecb3158be1.png)
 
-<br/>
 <br/>
 
 ### The first applet <br/>
