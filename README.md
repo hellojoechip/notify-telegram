@@ -2,8 +2,8 @@
 Pushing a notification to telegram when a new commit is made.
 
 <br/>
-Click [here](https://t.me/Devops3_1) to subscribe to my telegram channel for updates. <br/>
-To push notifications to the channel, use
+For updates, subscript to my [telegram channel](https://t.me/Devops3_1). <br/>
+To push notifications to the channel, key this into your web browser: https://maker.ifttt.com/trigger/devops3/with/key/k9VvAtBb7S7ZI2UTxTf3lk2H7LYllSoJuryAqzwLVWL
 
 <br/>
 
