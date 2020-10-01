@@ -8,6 +8,9 @@ To push notifications to the channel, key this into your web browser: https://ma
 <br/>
 <br/>
 
+![telegram the botfather](https://user-images.githubusercontent.com/71744836/94844191-744c8a00-0450-11eb-9d30-d476724bc6c0.jpg)
+<br/>
+
 ## Setting up telegram
 1. Search for 'BotFather' on [telegram](https://telegram.org/).
 2. Create and name your bot.
