@@ -4,7 +4,7 @@ Sending a notification to my telegram channel when a new pull request is made.
 
 # The telegram setup
 
-1. Search for 'BotFather' on telegram.
+1. Search for 'BotFather' on [telegram](https://telegram.org/).
 2. Create and name your bot.
 3. Create a new telegram channel.
 4. Add the bot created to your new channel.
