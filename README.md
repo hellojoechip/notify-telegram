@@ -10,6 +10,8 @@ I created 2 ways to push a notification to telegram.
 3. Create a new telegram channel.
 4. Add the bot created to your new channel.
 
+<br/>
+<br/>
 
 ## 1. Pushing a notification when a new commit is made
 
@@ -23,7 +25,7 @@ I created 2 ways to push a notification to telegram.
 This requires 2 applets to be created.
 Create an account and login to [ifttt](https://ifttt.com)
 
-_The first applet_
+_The first applet_ <br/>
 This is to create a web request when your code runs.
 
 1. Click on 'create' to create a new applet.
@@ -40,7 +42,7 @@ This is to create a web request when your code runs.
 12. Enable web page preview. (no idea what this does)
 13. Click on 'create action'.
 
-_The second applet_
+_The second applet_<br/>
 This is to send a notification to telegram when a web request is created.
 
 1. Click on 'create' to create a new applet.
@@ -57,7 +59,8 @@ This is to send a notification to telegram when a web request is created.
 ### Testing it
 If the setup is done correctly, your newly created telegram channel will receive a notification each time a new commit is made.
 
-
+<br/>
+<br/>
 
 ## 2. Pushing a notification when a new pull request is made
 
