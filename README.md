@@ -2,7 +2,7 @@
 Pushing a notification to telegram when a new commit is made.
 
 <br/>
-For updates, subscribe to my telegram channel at https://t.me/Devops3_1/
+For updates subscribe to my telegram channel at https://t.me/Devops3_1
 <br/>
 To push notifications to the channel, run this in your web browser: https://maker.ifttt.com/trigger/devops3/with/key/k9VvAtBb7S7ZI2UTxTf3lk2H7LYllSoJuryAqzwLVWL
 
@@ -14,6 +14,8 @@ Source: https://core.telegram.org/file/811140763/1/PihKNbjT8UE/03b57814e13713da3
 <br/>
 <br/>
 
+# The steps 
+
 ## Setting up telegram
 This is for creating a bot and channel.
 1. Search for 'BotFather' on [telegram](https://telegram.org/).
@@ -22,18 +24,18 @@ This is for creating a bot and channel.
 4. Add the bot created to your new channel.
 
 ## Setting up ifttt
-1. Create an account and login to [ifttt](https://ifttt.com)
+1. Create an account and login to [ifttt](https://ifttt.com).
 
 ## The webhooks setup
-This is for sending a automated message to a publicly accessible URL when a commit is made.
-1. Login to [webhooks settings](https://ifttt.com/maker_webhooks/settings)
+This is for creating the automated message and sending it a publicly accessible URL when a commit is made.
+1. Login to [webhooks settings](https://ifttt.com/maker_webhooks/settings).
 2. Copy and paste URL into browser.
 3. Fill in the blanks. (event: devops3 -- I used my telegram channel name)
 4. Copy the curl, replace the last line of test1.yml file with this. 
 
 ## The ifttt setup <br/>
 This requires 2 applets to be created. <br/>
-Each applet has a trigger and response.
+Each applet has a trigger (if) and response (then).
 <br/>
 <br/>
 ![Trigger   response process](https://user-images.githubusercontent.com/71744836/94854890-36576200-0460-11eb-94d8-c8ecb3158be1.png)
@@ -41,7 +43,7 @@ Each applet has a trigger and response.
 <br/>
 
 ### The first applet <br/>
-This is to create a web request when a new commit is made.
+This is to make a web request when a new commit is made in the repository.
 
 1. Click on 'create' to create a new applet.
 2. Click on 'if this' and search for github. 
@@ -60,7 +62,7 @@ This is to create a web request when a new commit is made.
 <br/>
 
 ### The second applet <br/>
-This is to send a notification to telegram when a web request is created.
+This is to send a notification to telegram when a web request is received.
 
 1. Click on 'create' to create a new applet.
 2. Click on 'if this' and search for webhook. 
