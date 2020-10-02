@@ -10,11 +10,11 @@ To push notifications to the channel, run this in your web browser: https://make
 <br/>
 
 ![telegram the botfather](https://user-images.githubusercontent.com/71744836/94844191-744c8a00-0450-11eb-9d30-d476724bc6c0.jpg) <br/>
-Source: https://core.telegram.org/file/811140763/1/PihKNbjT8UE/03b57814e13713da37
+[Source](https://core.telegram.org/file/811140763/1/PihKNbjT8UE/03b57814e13713da37)
 <br/>
 <br/>
 
-# The steps 
+# Beginner's Guide 
 
 ## Setting up telegram
 This is for creating a bot and channel.
