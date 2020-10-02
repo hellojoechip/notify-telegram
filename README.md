@@ -42,6 +42,8 @@ Each applet has a trigger (if) and response (then).
 
 <br/>
 
+:-)
+
 ### The first applet <br/>
 This is to make a web request when a new commit is made in the repository.
 
