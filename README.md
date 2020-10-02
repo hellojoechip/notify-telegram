@@ -56,8 +56,7 @@ This is to make a web request when a new commit is made in the repository.
 9. Set URL.
 10. Set method to POST.
 11. Set content type as application/json.
-12. Enable web page preview. (no idea what this does)
-13. Click on 'create action'.
+12. Click on 'create action'.
 
 <br/>
 
@@ -73,8 +72,7 @@ This is to send a notification to telegram when a web request is received.
 7. CLick on 'then that' and search for telegram.
 8. Choose an action.
 9. Change target chat to your newly created telegram channel.
-10. Enable web page preview. (still no idea what this does)
-11. Click on 'create action'.
+10. Click on 'create action'.
 
 <br/>
 
